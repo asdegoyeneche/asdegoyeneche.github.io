@@ -154,7 +154,7 @@ github: [metadata]
 scholar:
 
   last_name: De Goyeneche
-  first_name: [Alfredo]
+  first_name: [Alfredo, Alfredo*, A.]
 
   style: apa
   locale: en
