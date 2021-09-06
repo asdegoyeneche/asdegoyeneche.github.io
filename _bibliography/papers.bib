@@ -1,72 +1,62 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+@article{degoyeneche2019rapid,
+  title={Rapid Automated Cardiac Imaging},
+  author={De Goyeneche, Alfredo and Addy, Nii Okai and Islam, Haisam and Peterson, Eric and Overall, William and Santos, Juan M and Hu, Bob S},
+  journal={Frontier of AI-Assisted Care (FAC) Scientific Symposium,},
+  year={2019}, 
+  html={https://med.stanford.edu/frontierofaicare/abstracts.html}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@article{degoyeneche2019one,
+  title={One-Click Spine MRI},
+  author={De Goyeneche, Alfredo and Peterson, Eric and He, J Jason and Addy, N Okai and Santos, Juan M},
+  journal={Medical Imaging Meets NeurIPS Workshop at NeurIPS,},
+  year={2019}, 
+  html={https://sites.google.com/view/med-neurips-2019/Abstracts}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
+@article{degoyeneche2019automated,
+  title={Automated Cardiac Magnetic Resonance Imaging},
+  author={De Goyeneche, Alfredo and Addy, Nii O and Santos, Juan M and Hu, Bob S},
+  journal={Circulation,},
+  volume={140},
+  number={Suppl\_1},
+  pages={A17153--A17153},
+  year={2019},
+  publisher={American Heart Association,},
+  abstract={Introduction: Access, affordability, and accuracy of MRI examinations can all be vastly improved with machine learning-assisted automated imaging. We show that cardiac function can be clinically acquired and analyzed in less than 3 minutes or entire cardiac stress studies in less than 15 minutes with an automated workflow. Methods: We developed a flexible software architecture for image acquisition, recognition, and control. Human operator tasks including image recognition, planning, adjustments, and analysis are replaced by neural networks. The network was trained using TensorFlow with data from 58 clinical exams. The trained network sequentially located the complete set of standard views, in real time (Fig 1). A separate U-Net based model was trained to automatically segment the LV mass and volume for ejection fraction and cardiac mass. For the 15 minute scan, the desired inversion time was automatically determined using neural network outputs. Finally, a neural network was trained to detect image artifacts and repeat scans in the case of insufficient image quality. Results: In-vivo imaging was performed on a 1.5 T GE Signa scanner. Real-time spiral imaging was performed at 114 ms temporal resolution, reconstructed at 30 frames per second and 15 inferences per second. During inference, the network continuously analyzed series of real-time frames until a stable prescription was determined to minimize the effects of cardiac and respiratory motion. In a feasibility test of 50 patients, the network successfully found all standard views and segmented both ventricles without operator intervention. All scans, reconstructions, and analyses were completed in under 3 minutes. Conclusion: AI-assisted cardiac MRI examinations can be acquired rapidly with high precision which could profoundly affect the affordability, accessibility, and accuracy of cardiac diagnoses.},
+  html={https://www.ahajournals.org/doi/abs/10.1161/circ.140.suppl_1.17153}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{riquelme2020explaining,
+  title={Explaining VQA predictions using visual grounding and a knowledge base},
+  author={Riquelme, Felipe* and De Goyeneche, Alfredo* and Zhang, Yundong and Niebles, Juan Carlos and Soto, Alvaro},
+  journal={Image and Vision Computing,},
+  volume={101},
+  pages={103968},
+  year={2020},
+  publisher={Elsevier}, 
+  abstract={In this work, we focus on the Visual Question Answering (VQA) task, where a model must answer a question based on an image, and the VQA-Explanations task, where an explanation is produced to support the answer. We introduce an interpretable model capable of pointing out and consuming information from a novel Knowledge Base (KB) composed of real-world relationships between objects, along with labels mined from available region descriptions and object annotations. Furthermore, this model provides a visual and textual explanations to complement the KB visualization. The use of a KB brings two important consequences: enhance predictions and improve interpretability. We achieve this by introducing a mechanism that can extract relevant information from this KB, and can point out the relations better suited for predicting the answer. A supervised attention map is generated over the KB to select the relevant relationships from it for each question-image pair. Moreover, we add image attention supervision on the explanations module to generate better visual and textual explanations. We quantitatively show that the predicted answers improve when using the KB; similarly, explanations improve with this and when adding image attention supervision. Also, we qualitatively show that the KB attention helps to improve interpretability and enhance explanations. Overall, the results support the benefits of having multiple tasks to enhance the interpretability and performance of the model.}, 
+  html={https://www.sciencedirect.com/science/article/pii/S0262885620301001}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@article{degoyeneche2021deep,
+  title={Deep-Learning-Based Motion Correction For Quantitative Cardiac MRI},
+  author={De Goyeneche, Alfredo and Tang, Shuyu and Addy, Nii Okai and Hu, Bob S and Overall, William and Santos, Juan M},
+  journal={Proceedings of the 29th Annual Meeting of ISMRM,},
+  year={2021}, 
+  abstract={We developed a deep-learning-based approach for motion correction in quantitative cardiac MRI, including perfusion, T1 mapping, and T2 mapping. The proposed approach consists of a segmentation network and a registration network. The segmentation network was trained using 2D short-axis images for each of the three sequences, while the same registration network was shared between all three sequences. The proposed approach was faster and more accurate than a popular traditional registration method. Our work is beneficial for building a faster and more robust automated processing pipeline to obtain CMR parametric maps.}, 
+  html={https://www.ismrm.org/21/program-files/O-46.htm}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@article{wang2021high,
+  title={High Fidelity Deep Learning-based MRI Reconstruction with Instance-wise Discriminative Feature Matching Loss},
+  author={Wang, Ke and Tamir, Jonathan I and De Goyeneche, Alfredo and Wollner, Uri and Brada, Rafi and Yu, Stella and Lustig, Michael},
+  journal={arXiv preprint arXiv:2108.12460},
+  year={2021},
+  html={https://arxiv.org/abs/2108.12460}, 
+  abstract={Purpose: To improve reconstruction fidelity of fine structures and textures in deep learning (DL) based reconstructions. Methods: A novel patch-based Unsupervised Feature Loss (UFLoss) is proposed and incorporated into the training of DL-based reconstruction frameworks in order to preserve perceptual similarity and high-order statistics. The UFLoss provides instance-level discrimination by mapping similar instances to similar low-dimensional feature vectors and is trained without any human annotation. By adding an additional loss function on the low-dimensional feature space during training, the reconstruction frameworks from under-sampled or corrupted data can reproduce more realistic images that are closer to the original with finer textures, sharper edges, and improved overall image quality. The performance of the proposed UFLoss is demonstrated on unrolled networks for accelerated 2D and 3D knee MRI reconstruction with retrospective under-sampling. Quantitative metrics including NRMSE, SSIM, and our proposed UFLoss were used to evaluate the performance of the proposed method and compare it with others. Results: In-vivo experiments indicate that adding the UFLoss encourages sharper edges and more faithful contrasts compared to traditional and learning-based methods with pure l2 loss. More detailed textures can be seen in both 2D and 3D knee MR images. Quantitative results indicate that reconstruction with UFLoss can provide comparable NRMSE and a higher SSIM while achieving a much lower UFLoss value. Conclusion: We present UFLoss, a patch-based unsupervised learned feature loss, which allows the training of DL-based reconstruction to obtain more detailed texture, finer features, and sharper edges with higher overall image quality under DL-based reconstruction frameworks.}
 }
+
