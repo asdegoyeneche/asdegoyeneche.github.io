@@ -24,6 +24,6 @@ social: true  # includes social icons at the bottom of the page
 ##### Short Bio
 ---
 
-I am a second-year Ph.D. student in Electrical Engineering and Computer Science at UC Berkeley, where I work with Professor [Miki Lustig](http://people.eecs.berkeley.edu/~mlustig/) on machine learning for Magnetic Resonance Imaging (MRI). I am interested in deep learning, computer vision, reinforcement learning, and medical imaging & MRI. 
+I am a second-year Ph.D. student in Electrical Engineering and Computer Science at UC Berkeley, where I work with Professor [Miki Lustig](http://people.eecs.berkeley.edu/~mlustig/) on machine learning for Magnetic Resonance Imaging (MRI). I am interested in deep learning, computer vision, reinforcement learning, robotics, and medical imaging & MRI. 
 
 Previouly, from 2018 to 2020, I was a Machine Learning Engineer at a startup, [Heartvista](https://www.heartvista.ai), where we developed models and software and for self-driving MRIs. I did my undergraduate at [Pontificia Universidad Catolica de Chile (PUC)](https://www.uc.cl/en), where I studied Electrical Engineering and Computer Science, and I did deep learning research with Professors [Alvaro Soto](https://asoto.ing.puc.cl/) from PUC and [Juan Carlos Niebles](http://www.niebles.net/) from Stanford University. 
