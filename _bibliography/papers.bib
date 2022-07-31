@@ -54,9 +54,35 @@
 @article{wang2021high,
   title={High Fidelity Deep Learning-based MRI Reconstruction with Instance-wise Discriminative Feature Matching Loss},
   author={Wang, Ke and Tamir, Jonathan I and De Goyeneche, Alfredo and Wollner, Uri and Brada, Rafi and Yu, Stella and Lustig, Michael},
-  journal={arXiv preprint arXiv:2108.12460},
+  journal={Magnetic Resonance in Medicine.},
   year={2021},
-  html={https://arxiv.org/abs/2108.12460}, 
+  html={https://onlinelibrary.wiley.com/doi/abs/10.1002/mrm.29227},
   abstract={Purpose: To improve reconstruction fidelity of fine structures and textures in deep learning (DL) based reconstructions. Methods: A novel patch-based Unsupervised Feature Loss (UFLoss) is proposed and incorporated into the training of DL-based reconstruction frameworks in order to preserve perceptual similarity and high-order statistics. The UFLoss provides instance-level discrimination by mapping similar instances to similar low-dimensional feature vectors and is trained without any human annotation. By adding an additional loss function on the low-dimensional feature space during training, the reconstruction frameworks from under-sampled or corrupted data can reproduce more realistic images that are closer to the original with finer textures, sharper edges, and improved overall image quality. The performance of the proposed UFLoss is demonstrated on unrolled networks for accelerated 2D and 3D knee MRI reconstruction with retrospective under-sampling. Quantitative metrics including NRMSE, SSIM, and our proposed UFLoss were used to evaluate the performance of the proposed method and compare it with others. Results: In-vivo experiments indicate that adding the UFLoss encourages sharper edges and more faithful contrasts compared to traditional and learning-based methods with pure l2 loss. More detailed textures can be seen in both 2D and 3D knee MR images. Quantitative results indicate that reconstruction with UFLoss can provide comparable NRMSE and a higher SSIM while achieving a much lower UFLoss value. Conclusion: We present UFLoss, a patch-based unsupervised learned feature loss, which allows the training of DL-based reconstruction to obtain more detailed texture, finer features, and sharper edges with higher overall image quality under DL-based reconstruction frameworks.}
 }
 
+@article{degoyeneche2022resonet,
+  title={ResoNet: Physics Informed Deep Learning based Off-Resonance Correction Trained on Synthetic Data},
+  author={De Goyeneche, Alfredo and Ramachandran, Shreya and Wang, Ke and Karasan, Ekin and Yu, Stella and Lustig, Michael},
+  journal={Proceedings of the 31st Annual Meeting of ISMRM,},
+  year={2022},
+  abstract={We propose a physics-inspired, unrolled-deep-learning framework for off-resonance correction. Our forward model includes coil sensitivities, multi-frequency bins, and non-uniform Fourier transforms hence compatible with fat/water imaging and parallel imaging acceleration. The network, which includes data-consistency terms and CNN modules serving as proximal operators, is trained end-to-end using only synthetic random field maps, coil sensitivities, and noise-like images with statistics (smoothness) mimicking natural signals. Our aim is to train the network to reverse off-resonance irrespective of the type of imaging, and hence generalizable to any anatomy and contrast without retraining. We demonstrate initial results in simulations, phantom, and in-vivo data.},
+  html={https://index.mirasmart.com/ISMRM2022/PDFfiles/0555.html}
+}
+
+@article{wang2022rigorous,
+  title={Rigorous Uncertainty Estimation for MRI Reconstruction},
+  author={Wang, Ke and Angelopoulos, Anastasios and De Goyeneche, Alfredo and Kohli, Amit and Shimron, Efrat and Yu, Stella X and Malik, Jitendra and Lustig, Michael},
+  journal={Proceedings of the 31st Annual Meeting of ISMRM,},
+  year={2022},
+  abstract={Deep-learning (DL)-based MRI reconstructions have shown great potential to reduce scan time while maintaining diagnostic image quality. However, their adoption has been plagued with fears that the models will hallucinate or eliminate important anatomical features. To address this issue, we develop a framework to identify when and where a reconstruction model is producing potentially misleading results. Specifically, our framework produces confidence intervals at each pixel of a reconstruction image such that 95% of these intervals contain the true pixel value with high probability. In-vivo 2D knee and brain reconstruction results demonstrate the effectiveness of our proposed uncertainty estimation framework.},
+  html={https://index.mirasmart.com/ISMRM2022/PDFfiles/0749.html}
+}
+
+@article{shimron2022bladenet,
+  title={BladeNet: Rapid PROPELLER Acquisition and Reconstruction for High spatio-temporal Resolution Abdominal MRI},
+  author={Shimron, Efrat and De Goyeneche, Alfredo and Wang, Ke and Syed, Ali Bin and Vasanawala, Shreyas and Lustig, Michael},
+  journal={Proceedings of the 31st Annual Meeting of ISMRM,},
+  year={2022},
+  abstract={To improve bowel wall imaging in abdominal pediatric MRI scans, we propose a multi-phase single-shot fast spin echo (SSFSE) PROPELLER acquisition with novel deep learning reconstruction. This acquisition offers shorter scan time and thus higher temporal resolution, PROPELLER built-in motion correction, and alias-free images; these however exhibit spatial blurring. Our approach leverages the blurring-axis temporal rotation and data redundancy; we train a network to recover high-frequency spatial details from consecutive frames. Retrospective simulations with data from balanced SSFP scans show that this approach yields reconstructions with high spatio-temporal resolution and motion-correction, which are essential for pediatric abdominal imaging.},
+  html={https://index.mirasmart.com/ISMRM2022/PDFfiles/0684.html}
+}
