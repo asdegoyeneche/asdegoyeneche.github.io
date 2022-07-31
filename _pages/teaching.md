@@ -9,8 +9,10 @@ nav: true
 <div style="margin-bottom:50px">
   <h2 style="border-bottom:1px solid;margin-bottom: 20px">University of California, Berkeley</h2>
     <ul style="line-height:200%">
+      <li>Fall 2022: GSI for EECS16A: Designing Information Devices and Systems I.
+      </li>
       <li>Summer 2021: Mentor for <a href="http://ai-4-all.org/berkeley/">AI4ALL</a> summer program at Berkeley. </li>
-      </ul>  
+    </ul>  
  </div>
 
 
